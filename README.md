@@ -8,7 +8,8 @@ pip install tweepy cvs
 
 The cronjob-script uses GetOldTweets-python (https://github.com/Jefferson-Henrique/GetOldTweets-python).
 
+Full requirements:
+pip install tweepy cvs python-dateutil pyquery
+
 Rename twitterconfig.sample.py to twitterconfig.py and add your twitter app account
 Place your tweets.cvs in the same folder as the deletetwitter.py script and twitterconfig.py file
-
-
